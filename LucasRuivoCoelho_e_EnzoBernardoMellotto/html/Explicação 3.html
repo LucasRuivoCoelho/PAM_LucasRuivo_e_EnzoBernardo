@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="../css/pam.css">
+		<script src="../js/javascript1.js"></script>
+
+		<title>Document</title>
+		
+	</head>
+	<header>
+		 <ul>
+			  <li><a href="Explicação 1.html">Explicação 1</a></li>
+			  <li><a href="Explicação 2.html">Explicação 2</a></li>
+			  <li><a href="Explicação 3.html"class="active">Explicação 3</a></li>
+			  <li><a href="Explicação 4.html">Explicação 4</a></li>
+			  <li><a href="Explicação 5.html">Explicação 5</a></li>
+			  <li><a href="Explicação 6.html">Explicação 6</a></li>
+			  <li><a href="Explicação 7.html">Explicação 7</a></li>
+			  <li><a href="Explicação 8.html">Explicação 8</a></li>
+		</ul> 
+	</header>
+
+	<body>
+		<script>
+			
+		</script>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h2>document.getElementById()</h2>
+			<div>
+				<label>
+					escreva algo aqui
+				</label>
+				<input type="text" name="id_um" id="id_um"/>
+			</div>
+		<br>
+		<p id="id_dois"></p>
+		<br>
+		<button onclick="dom()">Após ecrever, aperte aqui</button>
+		
+		<h2>document.getElementsByTagName() </h2>
+		<p>Texto que será repetido quando o botão for apertado</p>
+		<p id="demo"></p>
+		<button onclick="tagname()">Botão</button>
+		
+		
+		
+		<h2>document.getElementsByClassName()</h2>		
+		<h4 class="classe">Texto que será reescrito</h4>
+		<h3 id="demonstração"></h3>
+		
+		<button onclick="class_name()">Botão</button>
+		
+		
+		<h2>document.querySelector()</h2>
+		<p class="exemplo">Texto que utiliza o .querySelector() para mudar a cor de fundo.</p>
+		
+		<button onclick="dom_selector()">botão</button>
+
+		
+		<h2>document.querySelectorAll()   </h2> 
+		<p class="s_all">texto 1</p>
+		<p class="s_all">texto 2</p>
+		<p class="s_all">texto 3</p>
+		<p class="s_all">texto 4</p>
+		
+		<button onclick="selector_all()">botão</button>
+	</body>
+</html>

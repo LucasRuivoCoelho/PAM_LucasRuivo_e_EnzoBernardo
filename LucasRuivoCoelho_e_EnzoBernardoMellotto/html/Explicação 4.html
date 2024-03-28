@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="../css/pam.css">
+		<script src="../js/javascript1.js"></script>
+		<title>Document</title>
+		
+	</head>
+	<header>
+		 <ul>
+			  <li><a href="Explicação 1.html">Explicação 1</a></li>
+			  <li><a href="Explicação 2.html">Explicação 2</a></li>
+			  <li><a href="Explicação 3.html">Explicação 3</a></li>
+			  <li><a href="Explicação 4.html"class="active">Explicação 4</a></li>
+			  <li><a href="Explicação 5.html">Explicação 5</a></li>
+			  <li><a href="Explicação 6.html">Explicação 6</a></li>
+			  <li><a href="Explicação 7.html">Explicação 7</a></li>
+			  <li><a href="Explicação 8.html">Explicação 8</a></li>
+		</ul> 
+	</header>
+
+	<body>
+		<br><br><br><br>
+		<h3 id="over" onmouseover="mouseOver()" onmouseout="mouseOut()">onmouseover (passe o ponteiro do mouse aqui)</h3>
+		<br><br><br>
+		<button type="button" id="id_nome" onfocus="focus_function()">ONFOCUS</button>
+		<br><br><br>
+		
+		<h3>Selecione um termo para testar o onchange:</h3>
+		<select id="selecionar" onchange="f_onchange()">
+			<option value="HTML">HTML</option>
+			<option value="CSS">CSS</option>
+			<option value="JAVASCRIPT">JAVASCRIPT</option>
+			<option value="PAM">PAM</option>
+		</select>
+		<p id="demo"></p>
+		<br><br><br>
+		<h3>ondblclick</h3>
+		<p ondblclick="minhatentativa()">Dê um duplo clique aqui</p>
+		<p id="paragrafo"></p>
+	</body>
+</html>
